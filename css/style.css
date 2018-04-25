@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Open+Sans');
+/*
+font-family: 'Advent Pro', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+/* redes sociais */
+.social{
+  position: fixed;
+  left: 0;
+  top: 250px;
+  z-index: 1;
+}
+
+.social ul li a{
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
+  font-size: 20px;
+  transition: all 500ms ease;
+}
+
+.icon-pinterest{background: #d95232;}
+.icon-google{background: #3b5998;}
+.icon-facebook{background: #00abf0;}
+.icon-twitter{background: #ea4335;}
+.icon-youtube{background: #4285f4;}
+.icon-skype{background: #ae181f;}
+
+.social ul li a:hover{
+  background: #000;
+  padding: 10px 30px;
+}
+
+
+
+
+
+/* fim redes */
+
+body{background: rgba(0, 3, 5,0.90);}
+
+#wrapper{
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+}
+
+#cabecalho{
+  width: 100%;
+  height: 500px;
+  background: url(../images/05.jpg);
+
+  background-repeat: no-repeat;
+  background-position:center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#logo{
+  width: 350px;
+  height: 80px;
+  margin: 20px 30px;
+  float:left;
+}
+
+#logo h1{
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0.8);
+  background: rgba(88, 17, 17, 0.8);
+  font-weight: 900;
+  text-align: center;
+  margin:40px 30px;
+  padding: 15px;
+  border-radius: 7px;
+}
+
+#menuprincipal{
+  width: 560px;
+  height: 50px;
+  padding: 15px;
+  margin-top: 70px;
+  margin-left: 180px;
+  margin-bottom: 70px;
+  float: left;
+}
+
+#menuprincipal ul{
+  text-align: right;
+  /*caso você não use o CSS reset, coloque a linha de baixo  */
+  /*list-style: none; tira os marcadores */
+}
+
+#menuprincipal ul li{
+  display: inline;
+}
+
+#menuprincipal ul li a{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-decoration: none;
+  color: #000;
+  letter-spacing: -1px;
+  font-weight: 900;
+}
+
+#menuprincipal ul li a:hover{
+  color: rgba(88, 17, 17, 0.8);
+  border-bottom: 1px solid rgba(88, 17, 17, 0.8);
+}
+
+.slogan{
+  clear: both;
+  width: 900px;
+  margin: 150px auto;
+  text-align: center;
+}
+
+.slogan h2{
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 40px;
+    padding: 50px;
+    color: rgba(88, 17, 17, 0.8);
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+}
+
+.caixa{
+  margin: 20px 0;
+  width: 100%;
+  height: 500px;
+  background: #fff;
+}
+
+#texto, #imagem, #formulario, #dados{
+  width: 550px;
+  float: left;
+  margin-top: 3px;
+  padding: 30px;
+}
+
+
+#texto h2, #formulario h2{
+  margin-top:20px;
+  margin-left: 15px;
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 40px;
+  color: rgba(88, 17, 17, 0.8);
+  border: 1px solid rgba(88, 17, 17, 0.8);
+  width: 250px;
+  padding: 30px;
+  text-align: center;
+  font-weight: 900;
+}
+
+#texto p{
+  margin-left: 15px;
+  margin-top: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: justify;
+}
+
+fieldset{
+  margin: 25px 0 0 15px;
+}
+
+fieldset input, fieldset textarea{
+  width: 100%;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+}
+
+textarea{
+  height: 100px;
+  resize: none;
+}
+
+button{
+  width: 120px;
+  padding: 20px;
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
+  background: rgba(88, 17, 17, 0.8);
+  color: #fff;
+  border: 0;
+  border-radius: 7px;
+}
+
+	#form1{height: 720px;
+	}
+
+	#dados{
+		margin-top:150px;
+		margin-left: 30px;
+		}
+
+	#dados h3{
+
+		margin-bottom:8px;
+		font-family: 'Advent Pro', sans-serif;
+		font-size: 30px;
+		color: rgba(88, 17, 17, 0.8);
+		font-weight: 900;
+		}
+
+		#dados p{
+		margin-bottom:45px;
+		font-family: 'Advent Pro', sans-serif;
+		font-size: 16px;
+		color: rgba(88, 17, 17, 0.8);
+		font-weight: 900;
+		letter-spacing:1px;
+		}
